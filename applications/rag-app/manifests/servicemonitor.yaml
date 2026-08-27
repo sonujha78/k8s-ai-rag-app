@@ -1,0 +1,15 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: rag-query-monitor
+  namespace: rag-app
+  labels:
+    release: kube-prometheus-stack
+spec:
+  selector:
+    matchLabels:
+      app: query
+  endpoints:
+    - port: query-port
+      path: /metrics
+      interval: 15s

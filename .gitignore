@@ -1,0 +1,22 @@
+# Node / React
+node_modules/
+dist/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Env & secrets
+.env
+*.env
+
+# Test / temp files
+test.pdf
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db

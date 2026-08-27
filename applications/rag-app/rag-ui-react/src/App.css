@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: #1e293b;
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin-bottom: 24px;
+  border: 1px solid #334155;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+input[type="text"], input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #475569;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+button {
+  background: #6366f1;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #4f46e5;
+}
+
+button:disabled {
+  background: #475569;
+  cursor: not-allowed;
+}
+
+.answer {
+  margin-top: 16px;
+  padding: 14px;
+  background: #0f172a;
+  border-radius: 6px;
+  border-left: 3px solid #6366f1;
+}

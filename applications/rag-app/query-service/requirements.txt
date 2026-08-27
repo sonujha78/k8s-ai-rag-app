@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-dotenv
+langchain
+langchain-community
+langchain-ollama
+langchain-qdrant
+qdrant-client
+prometheus-client
